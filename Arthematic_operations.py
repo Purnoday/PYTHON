@@ -17,3 +17,10 @@ s = int(input("Side ="))
 l = int(input("length="))
 b = int(input("breadth="))
 area = l*b
+
+#  area of trapezoid 
+a = int(input("base a ="))
+b = int(input("base b ="))
+h = int(input("height ="))
+area = ((a+b)*h/2)
+print(area)
